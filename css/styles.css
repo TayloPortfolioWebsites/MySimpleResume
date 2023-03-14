@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Merriweather Sans", sans-serif;
+  color: white;
+  background-color: #141519;
+  overflow-x: hidden;
+}
+
+.left-pic {
+  margin-left: 45%;
+  opacity: 70%;
+  height: 100vh;
+}
+
+.iframe-style {
+  margin-right: 20%;
+  background-size: cover;
+  width: 610px;
+  height: 100vh;
+}
+
+.div-left {
+  width: 45%;
+}
+
+.div-right {
+  width: 55%;
+}
+
+.footer-section {
+  background-color: #27282b;
+}
+
+.footer-left,
+.footer-right {
+  width: 30%;
+}
+
+.footer-left {
+  margin-left: 20%;
+}
+
+.footer-right {
+  margin-left: 10%;
+}
+
+.get-in,
+.inquiries-style,
+.social-style {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.footer-description {
+  margin-bottom: 20px;
+}
+
+.footer-location {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.footer-copy {
+  margin-bottom: 40px;
+}
+
+.footer-logo {
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+.phone-logo,
+.gmail-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.phone-number,
+.email-add {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+@media screen and (max-width: 1270px) {
+  .left-pic {
+    margin-left: 0;
+    opacity: 70%;
+    height: 90vh;
+  }
+
+  .div-left,
+  .div-right {
+    width: 300px;
+  }
+
+  .div-left {
+    margin-left: 15%;
+  }
+
+  .iframe-style {
+    background-size: cover;
+    width: 610px;
+    height: 90vh;
+  }
+
+  .footer-left {
+    margin-left: 11%;
+  }
+
+  .footer-right {
+    margin-left: 17%;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .left-pic {
+    display: none;
+  }
+
+  .div-left,
+  .div-right {
+    width: 0px;
+  }
+
+  .div-right {
+    margin-left: 6%;
+  }
+
+  .phone-number,
+  .email-add {
+    font-size: 10px;
+  }
+
+  .footer-left {
+    margin-left: 16%;
+  }
+}
+
+@media screen and (max-width: 855px) {
+  .left-pic {
+    display: none;
+  }
+
+  .div-right {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 771px) {
+  .left-pic {
+    display: none;
+  }
+
+  .div-left {
+    margin-left: 70px;
+  }
+
+  .footer-left {
+    margin-left: 15%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .left-pic {
+    display: none;
+  }
+
+  .div-left {
+    margin-left: 45px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 688px) {
+  .left-pic {
+    display: none;
+  }
+
+  .div-left{
+    margin-left: 20px;
+  }
+
+  .email-add,
+  .phone-logo,
+  .phone-number {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 623px) {
+  .left-pic {
+    display: none;
+  }
+
+  .div-left{
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 605px) {
+  .iframe-style {
+    background-size: contain;
+    width: 450px;
+    height: 90vh;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .left-pic {
+    display: none;
+  }
+
+  .div-right {
+    margin: 0;
+    padding: 0;
+  }
+
+  .iframe-style {
+    background-size: contain;
+    width: 400px;
+    height: 90vh;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .iframe-style {
+    background-size: contain;
+    width: 350px;
+    height: 90vh;
+  }
+}
